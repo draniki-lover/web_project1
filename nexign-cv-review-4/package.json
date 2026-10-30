@@ -1,0 +1,12 @@
+{
+  "name": "nexign-cv-review",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nexign CV Review — сайт с приёмом откликов",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

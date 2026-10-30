@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Стажировки — Nexign CV Review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="wrap nav">
+    <a href="index.html" class="brand">
+      <img class="logo" src="img/logo.png" alt="nexign"><span class="sep"></span><span>CV Review</span>
+    </a>
+    <button class="burger" id="burger" type="button" aria-label="Меню"><span></span></button>
+    <nav class="menu" id="menu">
+      <a href="index.html#about">О нас</a>
+      <a href="internships.html" class="active">Стажировки</a>
+      <a href="guide.html">Как подготовить CV самостоятельно?</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<div class="wrap">
+
+  <section class="hero int-hero">
+    <div class="hero-img">
+      <img src="img/hero-neon.jpg" alt="Неоновая вывеска print(&quot;hello, world&quot;)">
+    </div>
+    <div class="hero-text">
+      <h1>Стажировки</h1>
+      <p>Если ты студент старших курсов бакалавриата/магистратуры или выпускник технического вуза, изучаешь информационные технологии и хочешь начать карьеру в крупной IT-компании — ждём тебя в Nexign!</p>
+      <p>Стажировки для студентов проходят в течение всего года. Чтобы присоединиться к команде, пришли своё резюме на <a href="mailto:job@nexign.com?subject=Стажировка">job@nexign.com</a> с пометкой стажировка или откликнись в разделе <a href="#vacancies">«стажировки»</a>. Нужно иметь хорошую теоретическую базу и готовность прокачать свои практические навыки.</p>
+    </div>
+  </section>
+
+  <div class="section-head">
+    <h2 class="section-title" id="vacancies">Доступные стажировки по всей России</h2>
+    <img class="deco growth sticker" src="img/growth.png" alt="">
+  </div>
+
+  <div class="tabs" id="tabs">
+    <button class="tab active" type="button" data-filter="all">Все вакансии</button>
+    <button class="tab" type="button" data-filter="Менеджмент">Менеджмент</button>
+    <button class="tab" type="button" data-filter="Развитие бизнеса">Развитие бизнеса</button>
+    <button class="tab" type="button" data-filter="Техническое сопровождение">Техническое сопровождение</button>
+  </div>
+  <div class="cards" id="cards"></div>
+
+</div>
+
+</main>
+
+<footer class="footer">
+  <div class="f-top">
+    <div><img class="f-logo" src="img/logo.png" alt="nexign"></div>
+    <div class="f-col">
+      <h4>Карта сайта</h4>
+      <a href="index.html#about">О нас</a>
+      <a href="internships.html">Стажировки</a>
+      <a href="guide.html">Как подготовить CV самостоятельно?</a>
+    </div>
+    <div class="f-col">
+      <h4>Контакты</h4>
+      <a href="mailto:job@nexign.com">job@nexign.com</a>
+      <a href="tel:+78123261299">+7 (812) 326-12-99</a>
+    </div>
+  </div>
+   <div class="f-bottom">
+    <div>© АО «Нэксайн», 1992–2025</div>
+    <div class="f-wave-container">
+        <!-- Волна с двумя петлями -->
+        <svg class="f-wave" viewBox="0 0 1000 200" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0 20 
+                     C 150 180, 350 180, 450 130 
+                     C 520 90, 540 160, 480 160 
+                     C 420 160, 440 80, 510 80 
+                     C 600 80, 650 160, 750 160 
+                     C 820 160, 850 90, 850 60 
+                     C 850 20, 920 20, 920 60 
+                     C 920 100, 870 130, 810 130 
+                     C 750 130, 700 90, 720 50 
+                     C 740 10, 800 0, 900 0 
+                     C 950 0, 980 20, 1000 20" 
+                  stroke="#ffffff" 
+                  stroke-width="1.5" 
+                  stroke-dasharray="6 6" 
+                  stroke-linecap="round" 
+                  opacity="0.4"/>
+        </svg>
+    </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/main.js"></script>
+<script src="js/internships.js"></script>
+</body>
+</html>
